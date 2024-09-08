@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 28px;
+    text-align: center;
+    color: #3498db; /* צבע כחול */
+    margin-bottom: 20px;
+}
+
+.apartments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.apartment-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.apartment-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    font-size: 24px;
+    color: #f39c12; /* צבע זהב */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.address {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.rooms {
+    font-weight: bold;
+    color: #333;
+}

@@ -1,0 +1,84 @@
+/* ManagerrHome.css */
+
+.managerr-home {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.managerr-home h1 {
+    color: red;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.apartment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.apartment-form input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apartment-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.apartment-form button:hover {
+    background-color: #0056b3;
+}
+
+.apartments-list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.apartment-item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.apartment-item h3.price {
+    color: #007bff;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.apartment-item p {
+    margin: 5px 0;
+}
+
+.apartment-item button {
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apartment-item button:hover {
+    background-color: #c82333;
+}
